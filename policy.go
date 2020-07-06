@@ -5,6 +5,7 @@
 // https://juejin.im/post/5a31d5de6fb9a0450167f76f
 // 但是随后发现弊端，这个作者这种写法只能在同一个函数内完成算法撰写，可读性太差
 // 继续冲浪得到了一个外国小哥的解答，比较满意
+// https://medium.com/@ricardogomesdnb/simple-strategy-pattern-using-golang-6f287e8914cb
 package main
 
 import "fmt"
