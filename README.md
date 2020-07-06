@@ -22,3 +22,4 @@ golang-design-pattern
     - 适配器模式: adapter.go
     - 观察者模式
     - 状态模式
+    
