@@ -1,3 +1,6 @@
+//适配器模式
+//适配器模式用于讲一个类的接口转换为业务代码期望的另一个接口
+//譬如新的代码要兼容老旧代码的接口
 package main
 
 import "fmt"
@@ -6,6 +9,7 @@ type VideoPlayer interface {
 	play(fileType, name string)
 }
 
+// 旧的类
 type OlderPlayer struct {
 }
 
@@ -17,7 +21,7 @@ func (*OlderPlayer) PlayAVI(name string) {
 	fmt.Printf("play %s.AVI\n", name)
 }
 
-// 持有旧接口
+// 适配器类需要持有旧的类
 type Adapter struct {
 	olderPlayer OlderPlayer
 }
