@@ -13,7 +13,7 @@ golang-design-pattern
     - 适配器模式: adapter.go
     - 桥接模式: bridge.go
     - 装饰模式: decorator.go
-    - 外观模式
+    - 外观模式: facade.go
     - 享元模式
     - 代理模式
 3. 行为模式
