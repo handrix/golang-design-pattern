@@ -17,7 +17,7 @@ golang-design-pattern
     - 享元模式
     - 代理模式
 3. 行为模式
-    - 命令模式
+    - 命令模式: command.go
     - 中介模式
     - 观察者模式
     - 状态模式

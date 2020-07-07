@@ -16,21 +16,21 @@ type Sorter interface {
 
 type QS struct{}
 
-func (qs QS) Sort() {
+func (qs *QS) Sort() {
 	fmt.Println("quick sort.....")
 	fmt.Println("Done")
 }
 
 type MS struct{}
 
-func (ms MS) Sort() {
+func (ms *MS) Sort() {
 	fmt.Println("merge sort.....")
 	fmt.Println("Done")
 }
 
 var choice = map[string]Sorter{
-	"qs": QS{},
-	"ms": MS{},
+	"qs": &QS{},
+	"ms": &MS{},
 }
 
 func main() {
