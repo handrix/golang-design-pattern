@@ -16,6 +16,7 @@ golang-design-pattern
     - 外观模式: facade.go
     - 享元模式
     - 代理模式
+    - 组合模式
 3. 行为模式
     - 命令模式: command.go
     - 中介模式
